@@ -1,9 +1,6 @@
 FROM java:8-jdk
 
-RUN apt-get update && apt-get install -y wget git curl zip && rm -rf /var/lib/apt/lists/*
-
-# Install 32-bit libs necessary for Android builds
-RUN apt-get install lib32stdc++6 lib32z1
+RUN apt-get update && apt-get install -y wget git curl zip lib32stdc++6 lib32z1 && rm -rf /var/lib/apt/lists/*
 
 ENV JENKINS_HOME /var/jenkins_home
 ENV JENKINS_SLAVE_AGENT_PORT 50000
