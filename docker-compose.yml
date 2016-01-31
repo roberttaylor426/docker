@@ -1,4 +1,4 @@
-master:
+jenkins-android:
   build: .
   container_name: jenkins
   environment:
