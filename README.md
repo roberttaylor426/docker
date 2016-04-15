@@ -1,6 +1,6 @@
-# Official Jenkins Docker image
+# (Modified) Official Jenkins Docker image
 
-The Jenkins Continuous Integration and Delivery server.
+The Jenkins Continuous Integration and Delivery server, ready to build Android projects and bind to a Docker host.
 
 This is a fully functional Jenkins server, based on the Long Term Support release
 [http://jenkins-ci.org/](http://jenkins-ci.org/).
